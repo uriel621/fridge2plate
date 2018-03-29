@@ -1,0 +1,38 @@
+
+body{
+    background: linear-gradient(270deg,blanchedalmond,#1abc9c,#8cddcd);
+    background-size: 600% 600%;
+    animation: Gradient 60s ease infinite;
+}
+@keyframes Gradient {
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
+.container{
+    background-color: #effffc;
+    margin-top: 80px;
+    height: 500px;
+    width: 346px;
+    border-radius:5px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .4);
+}
+
+.omb_authTitle{
+    text-align: center;
+    margin-top: 10px;
+    /*font-size:22px;*/
+    font-family:"Raleway",sans-serif;
+}
+
+.omb_login{
+    margin-top: 30px;
+}
+
+#my-signin2{
+    margin:33px 0 0 55px /*top right bottom left*/
+}
+
+#logo{
+    margin-top: 70px;
+}

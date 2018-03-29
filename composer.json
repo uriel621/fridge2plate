@@ -1,0 +1,7 @@
+{
+  "require" : {
+    "facebook/php-sdk-v4": "~5.0",
+    "braintree/braintree_php" : "3.18.0",
+    "google/apiclient": "^2.0"
+  }
+}
